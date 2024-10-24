@@ -206,4 +206,38 @@ body {
 }
 
 
+.footer_gradient {
+  background: linear-gradient(to top, #0f4b5a, white);
+  /* padding: 50px 0; */
+  height: 200px;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  margin-top: 200px;
+}
+
+/* 푸터 내 아이템 간의 여백 */
+.footer-content {
+  background-color: #0f4b5a;
+  padding: 20px 0px;
+  color: white;
+  display: flex;
+  flex-direction: column; /* 아이템을 세로로 정렬 */
+  align-items: center; /* 중앙 정렬 */
+  gap: 15px; /* 아이템 간의 간격 */
+}
+
+.footer-item {
+  margin: 0;
+}
+
+.Icon_cloud {
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.Icon_mail {
+  font-size: 30px;
+  padding-right: 5px;
+}
 
